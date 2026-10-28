@@ -1,4 +1,4 @@
-// In-memory event store for the demo. Keeps the last 5000 events; good
+// In-memory event store for the service. Keeps the last 5000 events; good
 // enough for the current scope, and the EventStore interface means KV or D1 can
 // replace it without touching the scoring code.
 import type { EventStore, SignupEvent } from "./types";
