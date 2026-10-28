@@ -1,0 +1,13 @@
+name = "signup-fraud-signals"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+# Workers AI binding (optional). The app works without it: when the binding
+# is absent, scoring falls back to the heuristic layer alone.
+[ai]
+binding = "AI"
+
+# In production, swap the in-memory store for KV or D1. Example:
+# [[kv_namespaces]]
+# binding = "CASES"
+# id = "<your-kv-namespace-id>"
